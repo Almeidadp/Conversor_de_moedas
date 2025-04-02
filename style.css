@@ -61,3 +61,28 @@ footer {
     font-size: 14px;
     color: #555;
 }
+
+/* Alinha os selects lado a lado */
+.select-container {
+    display: flex;
+    justify-content: center; /* Centraliza os selects */
+    gap: 10px; /* Espaçamento entre os elementos */
+    align-items: center;
+}
+
+/* Ajuste para os selects */
+select {
+    width: auto; /* Impede que os selects fiquem muito largos */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+/* Ajusta o ícone da seta */
+.select-container span {
+    font-size: 20px;
+    color: white;
+}
