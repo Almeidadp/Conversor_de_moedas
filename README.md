@@ -32,7 +32,8 @@ Basta abrir o arquivo `index.html` no navegador.
 4. Clique no botão **"Converter"** e veja o resultado formatado!
 
 ## 📸 Captura de Tela
-![image](https://github.com/user-attachments/assets/d64acebc-78ed-4edd-a678-97f727e7dab7)
+![image](https://github.com/user-attachments/assets/4acb8069-41df-4c01-822c-62cda1b2bfb0)
+
 
 
 ## 📜 Licença
