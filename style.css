@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+}
+
+  /* Container with the background image */
+.container {
+    background: url('https://dinheirobemcuidado.com/wp-content/uploads/2021/04/tipos-de-dolar.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Content div for text and button */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}

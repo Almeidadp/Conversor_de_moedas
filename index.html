@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+
+    <div class="container">
+        <div class="content">
+            <h2>Conversor de Moedas</h2>
+            <p>Que tal converter esse valor?</p>
+            <button onclick="exibirConversor()">Bora converter!</button>
+
+            <!-- Campos ocultos que serão exibidos após o clique -->
+            <div id="conversor" style="display: none;">
+                <input type="number" id="valor" placeholder="Digite o valor">
+                
+                <select id="de">
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                </select>
+
+                <span> ➝ </span>
+
+                <select id="para">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real (BRL)</option>
+                </select>
+
+                <button onclick="converter()">Converter</button>
+                <h3 id="resultado"></h3>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>Imersão DEV - Desenvolvido por Danilo Almeida - 2025</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
